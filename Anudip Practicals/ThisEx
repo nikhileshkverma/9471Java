@@ -1,0 +1,20 @@
+public class ThisEx
+{
+public static void main(String []arg)
+{
+Child c=new Child();
+c.Anudip();	
+}
+}
+
+class Child
+{ 
+String a="JAi";
+void Anudip()
+{
+String a="NIk";
+System.out.println(a);
+System.out.println(this.a);
+}
+
+}
