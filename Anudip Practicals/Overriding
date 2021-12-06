@@ -1,0 +1,26 @@
+public class Overriding 
+{
+public static void main(String []args)
+{
+abc a=new abc();
+a.method();
+abc x=new xyz();
+x.method();
+}	
+}
+
+class abc
+{
+void method()
+{
+System.out.println("LEEJA TO MENU KITHE DOOR");
+}
+}
+
+class xyz extends abc
+{
+void method()
+{
+System.out.println("LEETA TO MENU MERE RAB DE PAAS");
+}
+}
