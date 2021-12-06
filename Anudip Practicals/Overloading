@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Overloading 
+{
+
+void method(int x,double d)
+{
+System.out.println("Entered Integer & Double Value \n"+x+"\n"+ +d);
+}
+
+void method(int a)
+{
+System.out.println("Entered Integer Value\n"+a);
+}
+
+public static void main(String []arg)
+{
+int s,d;
+double i;
+
+Overloading o=new Overloading();
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter no 1");
+System.out.println("Enter no 2");
+
+s=sc.nextInt();
+d=sc.nextInt();
+i=sc.nextDouble();
+
+o.method(s,i);
+o.method(d);
+}
+
+}
