@@ -1,0 +1,32 @@
+class Gvaiet
+{ 
+int a=1;
+
+Gvaiet()
+{
+System.out.println("JAi");
+}
+}
+
+class Gvaiet1 extends Gvaiet
+{ 
+int a=2;
+void Print()
+{
+System.out.println(a);
+/*super key word for accessing a superor patent class data*/
+System.out.println(super.a); 
+}	
+}
+
+public class Constructor
+{ 
+public static void main(String []arg)
+{
+Gvaiet1 b=new Gvaiet1();
+b.Print();
+System.out.println("NIk");
+}
+}
+
+
