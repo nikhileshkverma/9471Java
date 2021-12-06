@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+class Singlechild
+{
+int a;
+int b;
+}
+
+class Singlechild1 extends Singlechild
+{
+void Print()
+{
+System.out.println("Enter two value");
+}
+}
+
+public class SingleInheritance extends Singlechild
+{
+public static void main(String []arg)
+{
+int c;	    
+Scanner sc=new Scanner(System.in);
+SingleInheritance s=new SingleInheritance();
+Singlechild1 ss=new Singlechild1();
+ss.Print();
+s.a=sc.nextInt();
+s.b=sc.nextInt();
+c=s.a+s.b;
+System.out.println(c);
+}	
+}
