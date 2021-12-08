@@ -1,0 +1,20 @@
+interface jai
+{
+int a=2;
+int b=4;
+	
+void nik();		
+}
+public class Interface implements jai
+{
+public void nik()
+{
+int c=a+b;
+System.out.println("ADDITION OF A AND B\n" +c );
+}
+public static void main(String arg[])
+{
+Interface obj=new Interface();
+obj.nik();
+}
+}
