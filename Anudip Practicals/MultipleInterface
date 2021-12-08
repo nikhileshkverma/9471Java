@@ -1,0 +1,25 @@
+interface Multiple1
+{
+void nik();
+}
+
+interface Multiple2 
+{
+int a=2;
+int b=6;	
+}
+
+public class MultipleInterface implements Multiple1,Multiple2
+{
+public void nik()
+{ 
+int c=a+b;
+System.out.println("ADDITION OF A AND B\n" +c);
+}
+
+public static void main(String []arg)
+{
+MultipleInterface obj=new MultipleInterface();
+obj.nik();
+}
+}
