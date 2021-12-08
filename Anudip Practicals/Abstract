@@ -1,0 +1,19 @@
+abstract class Abstractclass 
+{
+abstract void nik();	
+}
+
+class Abstract extends Abstractclass
+{
+void nik()
+{
+System.out.println("abstract class runned");
+}
+
+public static void main(String arg[])
+{
+
+Abstract obj=new Abstract();
+obj.nik();
+}
+}
